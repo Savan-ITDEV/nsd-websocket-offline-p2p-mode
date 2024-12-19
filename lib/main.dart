@@ -46,6 +46,18 @@ class MyAppState extends State<MyApp> {
     super.initState();
   }
 
+  @override
+  void dispose() {
+    // registrations.forEach((value) {
+    //   unregister(value);
+    // });
+    // registrations.clear();
+
+    super.dispose();
+    print("dispose =====> ${registrations.length}");
+    // unregister(registration);
+  }
+
   Future<void> getIP() async {
     final ip = await info.getWifiIP(); // Fetch Wi-Fi IP address
     print("my ip ======> ${ip}");
@@ -109,7 +121,6 @@ class MyAppState extends State<MyApp> {
       /// remove fast, without confirmation, to avoid "onDismissed" error.
       registrations.remove(registration);
     });
-
     await unregister(registration);
   }
 

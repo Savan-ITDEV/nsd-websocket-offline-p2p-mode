@@ -13,7 +13,7 @@ import 'package:network_info_plus/network_info_plus.dart';
 const String serviceTypeDiscover = '_http._tcp';
 const String serviceTypeRegister = '_http._tcp';
 const utf8encoder = Utf8Encoder();
-
+int nextPort = 34474;
 // ตัวแปร global
 late WebSocket webSocket;
 late WebSocketChannel socket;
@@ -38,10 +38,19 @@ class MyAppState extends State<MyApp> {
   final discoveries = <Discovery>[];
   final registrations = <Registration>[];
 
-  int nextPort = 8080;
-
   MyAppState() {
     enableLogging(LogTopic.calls);
+  }
+
+  @override
+  void initState() {
+    getIP();
+    super.initState();
+  }
+
+  Future<void> getIP() async {
+    final ip = await info.getWifiIP(); // Fetch Wi-Fi IP address
+    print("my ip ======> ${ip}");
   }
 
   Future<void> addDiscovery() async {
@@ -74,7 +83,7 @@ class MyAppState extends State<MyApp> {
       registrations.add(registration);
     });
 
-    serverTCP = await ServerSocket.bind(ip.toString(), nextPort);
+    serverTCP = await ServerSocket.bind(InternetAddress.anyIPv4, nextPort);
 
     // ใช้งาน server
     serverTCP.listen((client) {
@@ -240,6 +249,7 @@ class DiscoveryState extends State<DiscoveryWidget> {
                 print(e.name?.split(",").toList()[1]);
               },
               onSelectChanged: (bool? selected) {
+                print("====host  : ${e.host}");
                 final serverIp = e.name?.split(',').toList()[1];
                 _showAlertDialog(context, serverIp!);
                 print(e.name?.split(',').toList()[1]);
@@ -329,7 +339,7 @@ void _showAlertDialog(BuildContext context, String serverIp) {
             onPressed: () async {
               final ip = await info.getWifiIP();
               // กำหนดค่าให้ตัวแปร global
-              socketTCP = await Socket.connect(ip, 8080);
+              socketTCP = await Socket.connect(ip, nextPort);
               socketTCP.listen((data) {
                 print('Data from Server: ${String.fromCharCodes(data)}');
               });
