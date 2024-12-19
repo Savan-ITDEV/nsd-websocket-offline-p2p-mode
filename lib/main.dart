@@ -19,7 +19,8 @@ const utf8encoder = Utf8Encoder();
 late WebSocket webSocket;
 late WebSocketChannel socket;
 late HttpServer server;
-
+var ipAddress = IpAddress(type: RequestType.json);
+final info = NetworkInfo();
 void main() {
   runApp(const MyApp());
 }
@@ -34,13 +35,20 @@ class MyApp extends StatefulWidget {
 class MyAppState extends State<MyApp> {
   final discoveries = <Discovery>[];
   final registrations = <Registration>[];
-  var ipAddress = IpAddress(type: RequestType.json);
-  final info = NetworkInfo();
-
   int nextPort = 8080;
-
   MyAppState() {
     enableLogging(LogTopic.calls);
+  }
+
+  @override
+  void initState() {
+    getIP();
+    super.initState();
+  }
+
+  Future<void> getIP() async {
+    final ip = await info.getWifiIP(); // Fetch Wi-Fi IP address
+    print("my ip ======> ${ip}");
   }
 
   Future<void> addDiscovery() async {
