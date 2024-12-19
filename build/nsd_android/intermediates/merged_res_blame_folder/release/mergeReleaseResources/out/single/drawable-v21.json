@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.haberey.flutter.nsd_android-release-25:/drawable-v21/notification_action_background.xml",
+        "source": "com.haberey.flutter.nsd_android-core-1.13.1-14:/drawable-v21/notification_action_background.xml"
+    }
+]

@@ -1,0 +1,31 @@
+<variant
+    name="release"
+    package="com.haberey.flutter.nsd_android"
+    minSdkVersion="21"
+    targetSdkVersion="21"
+    mergedManifest="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/nsd_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
+    manifestMergeReport="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/nsd_android/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/nsd_android/intermediates/default_proguard_files/global/proguard-android.txt-8.7.2"
+    partialResultsDir="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/nsd_android/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin:src/release/java:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/nsd_android/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/nsd_android/tmp/kotlin-classes/release:/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/nsd_android/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
+      type="MAIN"
+      applicationId="com.haberey.flutter.nsd_android"
+      generatedSourceFolders="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/nsd_android/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/nsd_android/generated/res/resValues/release"
+      desugaredMethodsFiles="/Users/larsavanitdev/.gradle/caches/8.11.1/transforms/a0031987a12b0f3b509acc8d5c3d0214/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

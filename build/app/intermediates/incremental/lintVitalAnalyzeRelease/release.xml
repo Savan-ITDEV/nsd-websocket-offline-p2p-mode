@@ -1,0 +1,37 @@
+<variant
+    name="release"
+    package="com.haberey.flutter.example"
+    minSdkVersion="21"
+    targetSdkVersion="34"
+    shrinking="true"
+    mergedManifest="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/app/intermediates/merged_manifest/release/processReleaseMainManifest/AndroidManifest.xml"
+    proguardFiles="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/app/intermediates/default_proguard_files/global/proguard-android.txt-8.7.2:/Users/larsavanitdev/Desktop/FileDev/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/app/intermediates/lint_vital_partial_results/release/lintVitalAnalyzeRelease/out"
+    desugaredMethodsFiles="/Users/larsavanitdev/.gradle/caches/8.11.1/transforms/a0031987a12b0f3b509acc8d5c3d0214/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin:src/release/java:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <artifact
+      classOutputs="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/app/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/app/tmp/kotlin-classes/release:/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/app/kotlinToolingMetadata:/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/processReleaseResources/R.jar"
+      type="MAIN"
+      applicationId="com.haberey.flutter.example"
+      generatedSourceFolders="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/app/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/app/generated/res/resValues/release"
+      desugaredMethodsFiles="/Users/larsavanitdev/.gradle/caches/8.11.1/transforms/a0031987a12b0f3b509acc8d5c3d0214/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

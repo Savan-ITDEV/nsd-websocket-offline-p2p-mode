@@ -1,0 +1,28 @@
+name: example
+description: Example application for the Flutter nsd plugin.
+homepage: https://github.com/sebastianhaberey/nsd
+version: 2.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  nsd:
+    path: ../
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  flutter_speed_dial: ^7.0.0
+  uuid: ^4.5.1
+  shelf: ^1.4.1 # pinned by flutter
+  web_socket_channel: ^3.0.1
+  get_ip_address: ^0.0.7
+  network_info_plus: ^6.1.2
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

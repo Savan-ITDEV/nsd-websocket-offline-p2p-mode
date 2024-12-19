@@ -1,0 +1,38 @@
+{
+  "" : {
+    "diagnostics" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/nsd_macos-master.dia",
+    "emit-module-dependencies" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/nsd_macos-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/nsd_macos-master-emit-module.dia",
+    "swift-dependencies" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/nsd_macos-master.swiftdeps"
+  },
+  "/Users/larsavanitdev/.pub-cache/hosted/pub.dev/nsd_macos-2.0.1/macos/Classes/NsdError.swift" : {
+    "const-values" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdError.swiftconstvalues",
+    "dependencies" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdError.d",
+    "diagnostics" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdError.dia",
+    "index-unit-output-path" : "/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdError.o",
+    "llvm-bc" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdError.bc",
+    "object" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdError.o",
+    "swift-dependencies" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdError.swiftdeps",
+    "swiftmodule" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdError~partial.swiftmodule"
+  },
+  "/Users/larsavanitdev/.pub-cache/hosted/pub.dev/nsd_macos-2.0.1/macos/Classes/NsdMacosPlugin.swift" : {
+    "const-values" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdMacosPlugin.swiftconstvalues",
+    "dependencies" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdMacosPlugin.d",
+    "diagnostics" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdMacosPlugin.dia",
+    "index-unit-output-path" : "/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdMacosPlugin.o",
+    "llvm-bc" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdMacosPlugin.bc",
+    "object" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdMacosPlugin.o",
+    "swift-dependencies" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdMacosPlugin.swiftdeps",
+    "swiftmodule" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/NsdMacosPlugin~partial.swiftmodule"
+  },
+  "/Users/larsavanitdev/.pub-cache/hosted/pub.dev/nsd_macos-2.0.1/macos/Classes/Serialization.swift" : {
+    "const-values" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/Serialization.swiftconstvalues",
+    "dependencies" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/Serialization.d",
+    "diagnostics" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/Serialization.dia",
+    "index-unit-output-path" : "/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/Serialization.o",
+    "llvm-bc" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/Serialization.bc",
+    "object" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/Serialization.o",
+    "swift-dependencies" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/Serialization.swiftdeps",
+    "swiftmodule" : "/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/nsd_macos.build/Objects-normal/x86_64/Serialization~partial.swiftmodule"
+  }
+}

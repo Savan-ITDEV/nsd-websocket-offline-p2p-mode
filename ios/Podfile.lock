@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - network_info_plus (0.0.1):
+    - Flutter
+  - nsd_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - network_info_plus (from `.symlinks/plugins/network_info_plus/ios`)
+  - nsd_ios (from `.symlinks/plugins/nsd_ios/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  network_info_plus:
+    :path: ".symlinks/plugins/network_info_plus/ios"
+  nsd_ios:
+    :path: ".symlinks/plugins/nsd_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  network_info_plus: 6613d9d7cdeb0e6f366ed4dbe4b3c51c52d567a9
+  nsd_ios: 8c37babdc6538e3350dbed3a52674d2edde98173
+
+PODFILE CHECKSUM: c4c93c5f6502fe2754f48404d3594bf779584011
+
+COCOAPODS: 1.15.2

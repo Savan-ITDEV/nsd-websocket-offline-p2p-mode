@@ -1,0 +1,1 @@
+ /Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/.dart_tool/flutter_build/28b254f07d10163c928cf4b3ad98c726/native_assets.yaml: 

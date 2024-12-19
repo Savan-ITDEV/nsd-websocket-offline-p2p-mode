@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.haberey.flutter.example"
+4    android:versionCode="1"
+5    android:versionName="2.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:3:5-67
+14-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+15-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:4:5-86
+15-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:4:22-83
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:network_info_plus] /Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/network_info_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:5-79
+16-->[:network_info_plus] /Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/network_info_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:7:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[:network_info_plus] /Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/network_info_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:5-76
+17-->[:network_info_plus] /Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/network_info_plus/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:8:22-73
+18
+19    <permission
+19-->[androidx.core:core:1.13.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/cc0e52eb74c8a566580ad32399abf7f4/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+20        android:name="com.haberey.flutter.example.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/cc0e52eb74c8a566580ad32399abf7f4/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/cc0e52eb74c8a566580ad32399abf7f4/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.haberey.flutter.example.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.13.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/cc0e52eb74c8a566580ad32399abf7f4/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/cc0e52eb74c8a566580ad32399abf7f4/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:6:5-42:19
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.13.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/cc0e52eb74c8a566580ad32399abf7f4/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:7:9-43
+30        android:label="example" >
+30-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:8:9-32
+31        <activity
+31-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:9:9-36:20
+32            android:name="com.haberey.flutter.example.MainActivity"
+32-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:10:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:11:13-163
+34            android:exported="true"
+34-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:12:13-36
+35            android:hardwareAccelerated="true"
+35-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:13:13-47
+36            android:launchMode="singleTop"
+36-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:14:13-43
+37            android:theme="@style/LaunchTheme"
+37-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:15:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:16:13-55
+39
+40            <!--
+41                 Specifies an Android theme to apply to this Activity as soon as
+42                 the Android process has started. This theme is visible to the user
+43                 while the Flutter UI initializes. After that, this theme continues
+44                 to determine the Window background behind the Flutter UI.
+45            -->
+46            <meta-data
+46-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:21:13-23:57
+47                android:name="io.flutter.embedding.android.NormalTheme"
+47-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:22:17-72
+48                android:resource="@style/NormalTheme" />
+48-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:23:17-54
+49            <!--
+50                 Displays an Android View that continues showing the launch screen
+51                 Drawable until Flutter paints its first frame, then this splash
+52                 screen fades out. A splash screen is useful to avoid any visual
+53                 gap between the end of Android's launch screen and the painting of
+54                 Flutter's first frame.
+55            -->
+56            <meta-data
+56-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:29:13-31:66
+57                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+57-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:30:17-81
+58                android:resource="@drawable/launch_background" />
+58-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:31:17-63
+59
+60            <intent-filter>
+60-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:32:13-35:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:33:17-69
+61-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:33:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:34:17-77
+63-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:34:27-74
+64            </intent-filter>
+65        </activity>
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+70-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:39:9-41:33
+71            android:name="flutterEmbedding"
+71-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:40:13-44
+72            android:value="2" />
+72-->/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/android/app/src/main/AndroidManifest.xml:41:13-30
+73
+74        <uses-library
+74-->[androidx.window:window:1.2.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/96d57e71d523a16b57c6fb60698b1e9f/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+75            android:name="androidx.window.extensions"
+75-->[androidx.window:window:1.2.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/96d57e71d523a16b57c6fb60698b1e9f/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+76            android:required="false" />
+76-->[androidx.window:window:1.2.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/96d57e71d523a16b57c6fb60698b1e9f/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+77        <uses-library
+77-->[androidx.window:window:1.2.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/96d57e71d523a16b57c6fb60698b1e9f/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+78            android:name="androidx.window.sidecar"
+78-->[androidx.window:window:1.2.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/96d57e71d523a16b57c6fb60698b1e9f/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+79            android:required="false" />
+79-->[androidx.window:window:1.2.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/96d57e71d523a16b57c6fb60698b1e9f/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+80
+81        <provider
+81-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/3008c734d190dd448593e4233dc4deb3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/3008c734d190dd448593e4233dc4deb3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+83            android:authorities="com.haberey.flutter.example.androidx-startup"
+83-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/3008c734d190dd448593e4233dc4deb3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+84            android:exported="false" >
+84-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/3008c734d190dd448593e4233dc4deb3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/3008c734d190dd448593e4233dc4deb3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/3008c734d190dd448593e4233dc4deb3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/3008c734d190dd448593e4233dc4deb3/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+88            <meta-data
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+90                android:value="androidx.startup" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+91        </provider>
+92
+93        <receiver
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+94            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+95            android:directBootAware="false"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+96            android:enabled="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+97            android:exported="true"
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+98            android:permission="android.permission.DUMP" >
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+100                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+103                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+106                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+107            </intent-filter>
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+109                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/larsavanitdev/.gradle/caches/8.11.1/transforms/8b2dba92177b0c443d61a88350bddd6a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+110            </intent-filter>
+111        </receiver>
+112    </application>
+113
+114</manifest>

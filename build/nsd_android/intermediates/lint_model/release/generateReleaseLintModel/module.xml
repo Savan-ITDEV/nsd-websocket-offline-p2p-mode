@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/larsavanitdev/.pub-cache/hosted/pub.dev/nsd_android-2.1.2/android"
+    name=":nsd_android"
+    type="LIBRARY"
+    maven="com.haberey.flutter.nsd_android:nsd_android:1.0-SNAPSHOT"
+    agpVersion="8.7.2"
+    buildFolder="/Users/larsavanitdev/Desktop/Dev/Flutter/nsd-main/nsd/example/build/nsd_android"
+    bootClassPath="/Users/larsavanitdev/Library/Android/sdk/platforms/android-35/android.jar:/Users/larsavanitdev/Library/Android/sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="11"
+    compileTarget="android-35"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
